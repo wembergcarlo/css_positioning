@@ -44,7 +44,7 @@ p {
 }
 
 .container img {
-
+display: block;
 }
 
 .date-square {
