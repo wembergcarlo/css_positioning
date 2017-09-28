@@ -8,6 +8,7 @@ body  {
 
 h1 {
   display: block;
+  position:static;
 }
 
 h2 {
@@ -34,11 +35,17 @@ nav a {
   color: white;
 }
 
+nav li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+
 p {
   color: white;
   display: inline-block;
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
 }
 
 footer {
@@ -51,6 +58,7 @@ footer {
 }
 
 .container img {
+
 }
 
 .date-square {
@@ -73,14 +81,9 @@ footer {
   height: 100px;
   width: auto;
   margin: 0px;
-  position: absolute;
+  position: static;
   right: 15px;
   bottom: 15px;
-}
-nav li{
-  display: inline-block;
-  width:60px;
-  text-align:center;
 }
 
 footer li {
