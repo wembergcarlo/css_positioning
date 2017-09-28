@@ -1,0 +1,107 @@
+body  {
+  margin: 0px;
+  border: 0;
+  font-family: 'Space Mono';
+  color: white;
+  background-color: #0e0e0e;
+}
+
+h1 {
+  display: block;
+}
+
+h2 {
+  display: block;
+}
+
+h4 {
+  display: block;
+}
+
+header {
+  background-color: #0e0e0e;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  text-align: right;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  top: 87px;
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  height: 200px;
+  color: white;
+  position: relative;
+  top: 150px;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  top: 120px;
+  padding-top: 120px;
+}
+
+.container img {
+
+}
+
+.date-square {
+  width: 55px;
+  height: 50px;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  bottom: 25px;
+  z-index: 5;
+}
+
+.date-square  p {
+  color: black;
+  width: 50px;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 10px;
+}
+
+#logo {
+  height: 100px;
+  width: auto;
+  margin: 0px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+footer li {
+  display: inline;
+}
