@@ -24,6 +24,7 @@ header {
   padding: 5px;
   position: fixed;
   width: 100%;
+  z-index:5;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 87px;
+  z-index:5;
 }
 
 nav a {
@@ -56,15 +58,14 @@ footer {
   height: 200px;
   color: white;
   position: relative;
-  top:150px;
+  top: 150px;
 }
 
 .container {
   text-align: center;
-  position:relative;
-  top:120px;
-  padding:120px;
-
+  position: relative;
+  top: 120px;
+  padding-top: 120px;
 }
 
 .container img {
@@ -76,8 +77,9 @@ footer {
   height: 50px;
   background-color: white;
   display: inline-block;
-  position:relative;
-  bottom:25px;
+  position: relative;
+  bottom: 25px;
+  z-index:5;
 }
 
 .date-square  p {
@@ -87,8 +89,8 @@ footer {
   background-color: white;
   text-align: center;
   margin: 0;
-  position:relative;
-  top:10px;
+  position: relative;
+  top: 10px;
 }
 
 #logo {
