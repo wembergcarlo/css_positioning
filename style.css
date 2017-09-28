@@ -8,7 +8,6 @@ body  {
 
 h1 {
   display: block;
-  position:static;
 }
 
 h2 {
@@ -51,6 +50,7 @@ p {
 footer {
   height: 200px;
   color: white;
+  position:relative;
 }
 
 .container {
@@ -81,7 +81,7 @@ footer {
   height: 100px;
   width: auto;
   margin: 0px;
-  position: static;
+  position: absolute;
   right: 15px;
   bottom: 15px;
 }
