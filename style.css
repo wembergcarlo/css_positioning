@@ -1,4 +1,4 @@
-body {
+body  {
   margin: 0px;
   border: 0;
   font-family: 'Space Mono';
@@ -36,7 +36,14 @@ nav a {
 
 p {
   color: white;
-  border: 1px solid white;
+  display: inline-block;
+  width:200px;
+  height:200px;
+}
+
+footer {
+  height: 200px;
+  color: white;
 }
 
 .container {
@@ -44,16 +51,16 @@ p {
 }
 
 .container img {
-display: block;
 }
 
 .date-square {
-  width: 50px;
+  width: 55px;
   height: 50px;
   background-color: white;
+  display: inline-block;
 }
 
-.date-square p {
+.date-square  p {
   color: black;
   width: 50px;
   height: 30px;
@@ -70,10 +77,10 @@ display: block;
   right: 15px;
   bottom: 15px;
 }
-
-footer {
-  height: 200px;
-  color: white;
+nav li{
+  display: inline-block;
+  width:60px;
+  text-align:center;
 }
 
 footer li {
