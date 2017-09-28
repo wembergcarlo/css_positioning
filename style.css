@@ -76,5 +76,5 @@ footer {
   color: white;
 }
 footer li {
-
+  display: inline;
 }
